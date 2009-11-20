@@ -1,5 +1,5 @@
 [compiz options]
-indirect rendering = true
+indirect rendering = false
 loose binding = false
 
 [window manager]

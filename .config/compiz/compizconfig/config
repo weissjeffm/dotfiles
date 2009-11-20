@@ -2,7 +2,3 @@
 backend = ini
 profile = 
 
-[general]
-profile = 
-integration = true
-
