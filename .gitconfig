@@ -1,0 +1,19 @@
+[diff]
+	external = /usr/local/bin/git-diff-wrapper.sh
+[user]
+	email = jweiss@redhat.com
+	name = Jeff Weiss
+[giggle]
+	main-window-maximized = false
+	main-window-geometry = 1168x759+1552+49
+	history-view-vpane-position = 443
+	main-window-view = HistoryView
+	file-view-vpane-position = 235
+	file-view-hpane-position = 294
+	show-graph = true
+[gui]
+	fontui = -family \"DejaVu Sans\" -size 9 -weight normal -slant roman -underline 0 -overstrike 0
+[merge]
+	tool = /usr/bin/meld
+[mergetool "diffuse"]
+	cmd = diffuse -t $BASE $LOCAL $MERGED $REMOTE
