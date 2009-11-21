@@ -6,9 +6,9 @@
 		<stringvalue>Sans 8</stringvalue>
 	</entry>
 	<entry name="use_sys_fonts" mtime="1221053464" type="bool" value="true"/>
-	<entry name="y" mtime="1258724851" type="int" value="207"/>
-	<entry name="x" mtime="1258724851" type="int" value="1697"/>
+	<entry name="y" mtime="1258821487" type="int" value="331"/>
+	<entry name="x" mtime="1258821487" type="int" value="1811"/>
 	<entry name="hpane" mtime="1243019211" type="int" value="151"/>
-	<entry name="height" mtime="1258753978" type="int" value="581"/>
-	<entry name="width" mtime="1258753978" type="int" value="1054"/>
+	<entry name="height" mtime="1258821483" type="int" value="581"/>
+	<entry name="width" mtime="1258821483" type="int" value="1054"/>
 </gconf>
