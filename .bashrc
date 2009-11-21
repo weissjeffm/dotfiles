@@ -18,3 +18,4 @@ export M2_HOME=/home/weissj/apache-maven-2.0.9
 export MAVEN_OPTS='-Xms128M -Xmx768M -XX:PermSize=128M -XX:MaxPermSize=256M'
 export MYDEV_CLASSPATH=~/workspace/webui-framework/bin/:~/workspace/webui-framework/lib/*:~/workspace/automatjon/jon-2.0/bin/:~/workspace/automatjon/jon-2.0/lib/*:~/workspace/automatjon/jon-2.0/src/:~/workspace/clojure/clojure-1.1.0-alpha-SNAPSHOT.jar:~/workspace/clojure-contrib/clojure-contrib.jar:~/workspace/vimclojure/build/vimclojure.jar
 
+#comment

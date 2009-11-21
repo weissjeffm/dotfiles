@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="background_transparency" mtime="1236948989" type="float" value="0"/>
+	<entry name="background_type" mtime="1236949020" type="int" value="0"/>
+	<entry name="font" mtime="1221051225" type="string">
+		<stringvalue>Sans 8</stringvalue>
+	</entry>
+	<entry name="use_sys_fonts" mtime="1221053464" type="bool" value="true"/>
+	<entry name="y" mtime="1258724851" type="int" value="207"/>
+	<entry name="x" mtime="1258724851" type="int" value="1697"/>
+	<entry name="hpane" mtime="1243019211" type="int" value="151"/>
+	<entry name="height" mtime="1258753978" type="int" value="581"/>
+	<entry name="width" mtime="1258753978" type="int" value="1054"/>
+</gconf>
