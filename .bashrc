@@ -20,3 +20,4 @@ alias startSel_fjs_0_19="java -jar ~/selenium-remote-control-0.9.2/selenium-serv
 alias beep='echo -en "\007";sleep 0.2;echo -en "\007";sleep 0.2;echo -en "\007"'
 alias kj="jps | cut -f1 -d' ' | xargs kill"
 
+#comment
