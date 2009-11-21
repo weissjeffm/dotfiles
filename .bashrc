@@ -6,16 +6,18 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # User specific aliases and functions
-export PATH=$PATH:/sbin:/usr/sbin:/usr/lib/firefox-2.0.0.12:/usr/java/latest/bin
-export JAVA_HOME=/usr/java/latest
-export TZ="US/Eastern"
-alias dir='ls -alh --color'
-set -o vi
 export EDITOR=vim
+export M2_HOME=/usr/local/maven
+export MAVEN_OPTS='-Xms128M -Xmx768M'
+export JAVA_HOME=/usr/lib/jvm/java/
+export CLASSPATH=/usr/share/groovy/lib/groovy-1.5.6.jar:$CLASSPATH
+export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$PATH:/sbin:/usr/sbin:/usr/lib/firefox-2.0.0.14
+
+set -o vi
+
+alias dir='ls -alh --color'
 alias startSel_fjs_0_19="java -jar ~/selenium-remote-control-0.9.2/selenium-server-0.9.2/selenium-server.jar -multiWindow -firefoxProfileTemplate /home/weissj/firefoxProfiles/customProfileDir473833"
-export CLASSPATH=$CLASSPATH:/home/weissj/workspace/webui-framework/lib/testng-5.8-jdk15.jar
-export M2_HOME=/home/weissj/apache-maven-2.0.9
-export MAVEN_OPTS='-Xms128M -Xmx768M -XX:PermSize=128M -XX:MaxPermSize=256M'
-export MYDEV_CLASSPATH=~/workspace/webui-framework/bin/:~/workspace/webui-framework/lib/*:~/workspace/automatjon/jon-2.0/bin/:~/workspace/automatjon/jon-2.0/lib/*:~/workspace/automatjon/jon-2.0/src/:~/workspace/clojure/clojure-1.1.0-alpha-SNAPSHOT.jar:~/workspace/clojure-contrib/clojure-contrib.jar:~/workspace/vimclojure/build/vimclojure.jar
+alias beep='echo -en "\007";sleep 0.2;echo -en "\007";sleep 0.2;echo -en "\007"'
+alias kj="jps | cut -f1 -d' ' | xargs kill"
 
 #comment
