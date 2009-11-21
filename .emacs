@@ -1,7 +1,7 @@
+;;Turn off menu
+;;(setq menu-bar-mode 0)
 
-
-(require 'color-theme)
-
+;;(require 'color-theme)
 ;; (eval-after-load "color-theme"
 ;;   '(progn
 ;;      (color-theme-initialize)
