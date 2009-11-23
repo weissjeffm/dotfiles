@@ -15,7 +15,7 @@ export JAVA_HOME=/usr/lib/jvm/java/
 export CLASSPATH=/usr/share/groovy/lib/groovy-1.5.6.jar:$CLASSPATH
 export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$PATH:/sbin:/usr/sbin:/usr/lib/firefox-2.0.0.14
 
-set -o vi
+set -o emacs
 
 alias dir='ls -alh --color'
 alias startSel_fjs_0_19="java -jar ~/selenium-remote-control-0.9.2/selenium-server-0.9.2/selenium-server.jar -multiWindow -firefoxProfileTemplate /home/weissj/firefoxProfiles/customProfileDir473833"
