@@ -1,3 +1,7 @@
+[user]
+	email = jweiss@redhat.com
+	name = Jeff Weiss
+
 [giggle]
 	compact-mode = false
 	main-window-maximized = true
@@ -10,3 +14,4 @@
 	name = 
 [diff]
 	external = /usr/local/bin/mydiff.sh
+
