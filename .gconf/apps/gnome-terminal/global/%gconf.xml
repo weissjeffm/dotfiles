@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_mnemonics" mtime="1259020366" type="bool" value="true"/>
+	<entry name="use_menu_accelerators" mtime="1259020348" type="bool" value="true"/>
+</gconf>
