@@ -9,9 +9,9 @@
 	main-window-view = HistoryView
 	file-view-vpane-position = 802
 	history-view-vpane-position = 802
-[user]
-	email = 
-	name = 
+[mergetool "diffuse"]
+	cmd = diffuse -t $BASE $LOCAL $MERGED $REMOTE
+
 [diff]
 	external = /usr/local/bin/mydiff.sh
 
