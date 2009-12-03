@@ -15,3 +15,5 @@
 [diff]
 	external = /usr/local/bin/mydiff.sh
 
+[gui]
+	spellingdictionary = none
