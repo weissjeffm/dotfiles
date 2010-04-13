@@ -13,7 +13,7 @@
 	cmd = diffuse -t $BASE $LOCAL $MERGED $REMOTE
 
 [diff]
-	external = /usr/local/bin/mydiff.sh
+	external = /home/weissj/bin/mydiff.sh
 
 [gui]
 	spellingdictionary = none

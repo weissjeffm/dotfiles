@@ -1,0 +1,7 @@
+#!/bin/bash
+unset NEWWINDOWOPT
+if ! ps -C emacsclient 1>/dev/null; then
+    NEWWINDOWOPT=-c
+fi
+emacsclient $NEWWINDOWOPT --alternate-editor= $* &
+disown %%

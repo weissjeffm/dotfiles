@@ -7,7 +7,7 @@ fi
 
 # User specific aliases and functions
 #export EDITOR=vim                                                                                                                                        
-export EDITOR="emacsclient -c --alternate-editor="
+export EDITOR=~/bin/emacs
 
 export M2_HOME=/usr/local/maven
 export MAVEN_OPTS='-Xms128M -Xmx768M'
