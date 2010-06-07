@@ -7,11 +7,11 @@ fi
 
 # User specific aliases and functions
 #export EDITOR=vim                                                                                                                                        
-export EDITOR=~/bin/emacs
+export EDITOR='/usr/bin/emacsclient --alternate-editor= -nw '
 
 export M2_HOME=/usr/local/maven
 export MAVEN_OPTS='-Xms128M -Xmx768M'
-export JAVA_HOME=/usr/lib/jvm/java/
+export JAVA_HOME=/etc/alternatives/jre_openjdk
 export CLASSPATH=/usr/share/groovy/lib/groovy-1.5.6.jar:$CLASSPATH
 export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$PATH
 

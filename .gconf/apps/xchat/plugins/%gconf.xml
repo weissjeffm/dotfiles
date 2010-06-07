@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="loaded" mtime="1271164482" type="list" ltype="string">
+	<entry name="loaded" mtime="1275912341" type="list" ltype="string">
 		<li type="string">
 			<stringvalue>/usr/lib/xchat-gnome/plugins/autoaway.so</stringvalue>
 		</li>
