@@ -1,26 +1,14 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="loaded" mtime="1259079577" type="list" ltype="string">
+	<entry name="loaded" mtime="1274274081" type="list" ltype="string">
 		<li type="string">
-			<stringvalue>/usr/lib/xchat-gnome/plugins/autoaway.so</stringvalue>
+			<stringvalue>/usr/lib64/xchat-gnome/plugins/soundnotification.so</stringvalue>
 		</li>
 		<li type="string">
-			<stringvalue>/usr/lib/xchat-gnome/plugins/soundnotification.so</stringvalue>
+			<stringvalue>/usr/lib64/xchat-gnome/plugins/notifyosd.so</stringvalue>
 		</li>
 		<li type="string">
-			<stringvalue>/usr/lib/xchat-gnome/plugins/netmonitor.so</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/usr/lib/xchat-gnome/plugins/notifyosd.so</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/usr/lib/xchat-gnome/plugins/notification.so</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/usr/lib/xchat-gnome/plugins/notifyosd.so</stringvalue>
-		</li>
-		<li type="string">
-			<stringvalue>/usr/lib/xchat-gnome/plugins/notification.so</stringvalue>
+			<stringvalue>/usr/lib64/xchat-gnome/plugins/notification.so</stringvalue>
 		</li>
 	</entry>
 </gconf>

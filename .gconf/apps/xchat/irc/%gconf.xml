@@ -1,22 +1,22 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="colorize_nicknames" mtime="1258738765" type="bool" value="true"/>
-	<entry name="color_scheme" mtime="1258738765" type="int" value="2"/>
-	<entry name="showcolors" mtime="1258738765" type="bool" value="true"/>
-	<entry name="showtimestamps" mtime="1258738765" type="bool" value="true"/>
-	<entry name="awaymsg" mtime="1258738765" type="string">
+	<entry name="colorize_nicknames" mtime="1274300473" type="bool" value="true"/>
+	<entry name="color_scheme" mtime="1274300473" type="int" value="2"/>
+	<entry name="showcolors" mtime="1274300473" type="bool" value="true"/>
+	<entry name="showtimestamps" mtime="1274300473" type="bool" value="true"/>
+	<entry name="awaymsg" mtime="1274300473" type="string">
 		<stringvalue>Away</stringvalue>
 	</entry>
-	<entry name="partmsg" mtime="1258738765" type="string">
+	<entry name="partmsg" mtime="1274300473" type="string">
 		<stringvalue>Ex-Chat</stringvalue>
 	</entry>
-	<entry name="quitmsg" mtime="1258738765" type="string">
+	<entry name="quitmsg" mtime="1274300473" type="string">
 		<stringvalue>Ex-Chat</stringvalue>
 	</entry>
-	<entry name="realname" mtime="1258738765" type="string">
+	<entry name="realname" mtime="1274300473" type="string">
 		<stringvalue>Jeff Weiss</stringvalue>
 	</entry>
-	<entry name="nickname" mtime="1258738765" type="string">
+	<entry name="nickname" mtime="1274300473" type="string">
 		<stringvalue>jweiss</stringvalue>
 	</entry>
 </gconf>
