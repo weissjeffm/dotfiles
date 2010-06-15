@@ -102,7 +102,7 @@ style "theme-entry" = "theme-wider"
 
 style "theme-button" = "theme-wider"
 {
-  bg[NORMAL]        = @bg_color
+  bg[NORMAL]        = shade(1.5, @bg_color)
   bg[INSENSITIVE]   = shade(0.5, @bg_color)
   bg[PRELIGHT]      = @selected_bg_color #"#555555"
   bg[ACTIVE]	     = shade(0.5,@selected_bg_color)
@@ -131,7 +131,7 @@ style "theme-menu-item" = "theme-default"
 {
   ythickness = 3
   fg[NORMAL] = @fg_color
-  text[PRELIGHT] = @text_color
+  text[PRELIGHT] = @text_color	
 }
 
 style "theme-menubar" = "theme-default"

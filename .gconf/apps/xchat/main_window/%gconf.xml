@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="hpane" mtime="1273495184" type="int" value="211"/>
-	<entry name="background_transparency" mtime="1273495125" type="float" value="0.5"/>
-	<entry name="y" mtime="1275598484" type="int" value="415"/>
-	<entry name="x" mtime="1275598484" type="int" value="417"/>
-	<entry name="height" mtime="1275912342" type="int" value="465"/>
-	<entry name="width" mtime="1275912342" type="int" value="1041"/>
+	<entry name="hpane" mtime="1276519689" type="int" value="120"/>
+	<entry name="background_transparency" mtime="1275921151" type="float" value="0.5"/>
+	<entry name="y" mtime="1276566870" type="int" value="348"/>
+	<entry name="x" mtime="1276566870" type="int" value="1868"/>
+	<entry name="height" mtime="1276601632" type="int" value="523"/>
+	<entry name="width" mtime="1276601632" type="int" value="1070"/>
 </gconf>
