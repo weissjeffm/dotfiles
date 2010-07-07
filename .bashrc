@@ -14,6 +14,7 @@ export MAVEN_OPTS='-Xms128M -Xmx768M'
 export JAVA_HOME=/usr/lib/jvm/java/
 export CLASSPATH=/usr/share/groovy/lib/groovy-1.5.6.jar:$CLASSPATH
 export PATH=$JAVA_HOME/bin:$M2_HOME/bin:$PATH
+export IMPORTDIR=/home/jweiss/workspace/cp_product_utils
 
 set -o emacs
 

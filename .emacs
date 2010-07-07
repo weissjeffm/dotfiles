@@ -24,20 +24,30 @@
 ;;      (color-theme-initialize)
 ;;      (color-theme-jsc-dark)))
 (require 'clojure-mode)
-(require 'magit)
+
 
 (add-hook 'slime-repl-mode-hook 
 	(progn  (lambda()(paredit-mode 1))))
-
-(autoload 'groovy-mode "groovy-mode" "Groovy editing mode." t)
-(add-to-list 'auto-mode-alist '("\.groovy$" . groovy-mode))
-(add-to-list 'interpreter-mode-alist '("groovy" . groovy-mode))
 
 ;;show parens
 (show-paren-mode 1)
 
 ;;save sessions
 (desktop-save-mode 1)
+
+
+(defun goto-last-edit-point ()
+  "Go to the last point where editing occurred."
+  (interactive)
+  (let ((undos buffer-undo-list))
+    (when (listp undos)
+      (while (and undos
+		  (let ((pos (or (cdr-safe (car undos))
+				 (car undos))))
+		    (not (and (integerp pos)
+			      (goto-char (abs pos))))))
+	(setq undos (cdr undos))))))
+(global-set-key (kbd "C-c SPC") 'goto-last-edit-point)
 
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
@@ -48,15 +58,6 @@
 
 
 
+ 
 
 
-
-;;; This was installed by package-install.el.
-;;; This provides support for the package system and
-;;; interfacing with ELPA, the package archive.
-;;; Move this code earlier if you want to reference
-;;; packages in your .emacs.
-(when
-    (load
-     (expand-file-name "~/.emacs.d/elpa/package.el"))
-  (package-initialize))
