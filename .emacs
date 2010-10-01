@@ -53,6 +53,25 @@
      (select-window other-window)))
 
 
+;;set up terminal colors and remote terminal settings
+(setq term-default-fg-color "#00FF00")
+
+(defun remote-term (new-buffer-name cmd &rest switches)
+      (setq term-ansi-buffer-name (concat "*" new-buffer-name "*"))
+      (setq term-ansi-buffer-name (generate-new-buffer-name term-ansi-buffer-name))
+      (setq term-ansi-buffer-name (apply 'make-term term-ansi-buffer-name cmd nil switches))
+      (set-buffer term-ansi-buffer-name)
+      (term-mode)
+      (term-char-mode)
+      (term-set-escape-char ?\C-x)
+      (switch-to-buffer term-ansi-buffer-name))
+
+(defun open-jweiss ()
+      (interactive) 
+      (remote-term "jweiss.usersys" "ssh" "jweiss@jweiss.usersys.redhat.com"))
+
+
+
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.

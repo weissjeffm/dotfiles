@@ -5,6 +5,13 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+function parse_git_branch {
+  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+ 
+PS1="[\u@\h \W\$(parse_git_branch)]\$ "
+
+
 # User specific aliases and functions
 #export EDITOR=vim                                                                                                                                        
 export EDITOR='/usr/bin/emacsclient --alternate-editor= -nw '
