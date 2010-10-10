@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=jeff-redhat-theme
+Type=X-GNOME-Metatheme
+Comment=
+
+[X-GNOME-Metatheme]
+GtkTheme=CompizMurrina
+MetacityTheme=Neutronium-Rounded
+IconTheme=gnome
+GtkColorScheme=fg_color:#ffffffffffff,bg_color:#171717171717,text_color:#ffffffffffff,base_color:#222222222222,selected_fg_color:#ffffffffffff,selected_bg_color:#a66627ef27ef,tooltip_fg_color:#9c9c9c9c9c9c,tooltip_bg_color:#181818181818
+CursorTheme=default
+CursorSize=18
+NotificationTheme=slider
+BackgroundImage=/usr/share/backgrounds/abstract/Silk.png
