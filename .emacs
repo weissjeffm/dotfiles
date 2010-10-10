@@ -28,6 +28,9 @@
 (add-hook 'slime-repl-mode-hook 
 	(progn  (lambda()(paredit-mode 1))))
 
+(add-hook 'eshell-mode-hook 
+	(progn  (lambda()(paredit-mode 1))))
+
 ;;show parens
 (show-paren-mode 1)
 
@@ -67,8 +70,12 @@
       (switch-to-buffer term-ansi-buffer-name))
 
 (defun open-jweiss ()
+  (interactive) 
+  (remote-term "jweiss.usersys" "ssh" "jweiss@jweiss.usersys.redhat.com"))
+
+(defun open-jweiss-rhel6 ()
       (interactive) 
-      (remote-term "jweiss.usersys" "ssh" "jweiss@jweiss.usersys.redhat.com"))
+      (remote-term "jweiss-rhel6-1" "ssh" "root@jweiss-rhel6-1.usersys.redhat.com"))
 
 
 

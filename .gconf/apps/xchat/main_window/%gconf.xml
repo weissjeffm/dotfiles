@@ -3,8 +3,8 @@
 	<entry name="background_type" mtime="1280414611" type="int" value="0"/>
 	<entry name="hpane" mtime="1277837394" type="int" value="157"/>
 	<entry name="background_transparency" mtime="1285616986" type="float" value="0.5"/>
-	<entry name="y" mtime="1285889416" type="int" value="345"/>
-	<entry name="x" mtime="1285889416" type="int" value="1814"/>
-	<entry name="height" mtime="1285939055" type="int" value="493"/>
-	<entry name="width" mtime="1285939055" type="int" value="1068"/>
+	<entry name="y" mtime="1286551021" type="int" value="885"/>
+	<entry name="x" mtime="1286551021" type="int" value="1887"/>
+	<entry name="height" mtime="1286569626" type="int" value="493"/>
+	<entry name="width" mtime="1286569626" type="int" value="1068"/>
 </gconf>
