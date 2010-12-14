@@ -1,5 +1,6 @@
 (custom-set-faces
  '(default ((t (:inherit nil :stipple nil :background "black" :foreground "white" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 90 :width normal :foundry "unknown" :family "DejaVu Sans Mono")))))
+(global-hl-line-mode 1)
 (set-face-background 'hl-line "#151500")
 
 (require 'clojure-mode)
